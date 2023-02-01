@@ -30,5 +30,55 @@
     transform: translateZ(-40px) scale(5);
 }
 .foreground{
-    transform: translateZ(-20px) scale(3);
+    transform: translateZ(-20px) scale(1);
+}
+h1{
+    color:white;
+    font-size: 8rem;
+    position: absolute;
+    top:1rem;
+    letter-spacing: 4px; 
+    text-shadow: 0 0 10px rgba(0,0,0,3);
+}
+section{
+    background-color: rgb(45,45,45);
+    color: white;
+    padding: 5rem 0;
+}
+.bg{
+    position: relative;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+.bg1{
+    background-image: url(biking.jpg);
+}
+.bg2{
+    background-image: url(paragliding.jpg);
+}
+.bg3{
+    background-image: url(surfing.jpg);
+}
+.secHead{
+    font-size: 5rem;
+    padding: 0 10rem;
+}
+.text{
+    font-size: 1.5rem;
+    padding: 0 10rem;
+    margin: 5rem 0;
+}
+.desc{
+    position: absolute;
+    background-color: white;
+    padding: 0.5rem 2.5rem;
+    top:30%;
+    left:50%;
+    transform:translateX(-50%) ;
+    color: black;
+    font-size: 3.5rem;
+    font-weight: 600px;
 }
