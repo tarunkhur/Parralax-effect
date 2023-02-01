@@ -30,5 +30,5 @@
     transform: translateZ(-40px) scale(5);
 }
 .foreground{
-    transform: translateZ(-20px) scaleZ(3);
+    transform: translateZ(-20px) scale(3);
 }
