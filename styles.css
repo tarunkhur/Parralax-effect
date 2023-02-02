@@ -17,7 +17,6 @@
     height:100%;
     transform-style: preserve-3d;
     z-index: -1;
-
 }
 .mountain,.foreground{
     position: absolute;
@@ -45,6 +44,15 @@ section{
     color: white;
     padding: 5rem 0;
 }
+.secHead{
+    font-size: 5rem;
+    padding: 0 10rem;
+}
+.text{
+    font-size: 1.5rem;
+    padding: 0 10rem;
+    margin: 5rem 0;
+}
 .bg{
     position: relative;
     width: 100%;
@@ -62,15 +70,7 @@ section{
 .bg3{
     background-image: url(surfing.jpg);
 }
-.secHead{
-    font-size: 5rem;
-    padding: 0 10rem;
-}
-.text{
-    font-size: 1.5rem;
-    padding: 0 10rem;
-    margin: 5rem 0;
-}
+
 .desc{
     position: absolute;
     background-color: white;
